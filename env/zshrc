@@ -1,0 +1,20 @@
+export http_proxy=http://127.0.0.1:7890
+export https_proxy=http://127.0.0.1:7890
+export all_proxy=socks5://127.0.0.1:7891
+
+alias ipi="curl cip.cc"
+alias vim="nvim"
+alias ls="eza --icons"
+alias ll="eza -lh --icons"
+alias la="eza -lha --icons"
+alias tree="eza -T --icons --git-ignore"
+
+export PATH="$HOME/.pyenv/bin:$PATH"
+eval "$(pyenv init --path)"
+eval "$(pyenv virtualenv-init -)"
+
+eval "$(starship init zsh)"
+eval "$(zoxide init zsh)"
+eval "$(mcfly init zsh)"
+source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
