@@ -3,4 +3,4 @@ font-size = 15
 theme = tokyonight-storm
 background-opacity = 0.62
 background-blur = true
-
+quit-after-last-window-closed = true
