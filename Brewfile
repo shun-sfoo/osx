@@ -2,6 +2,8 @@
 brew "cmake"
 # Modern, maintained replacement for ls
 brew "eza"
+# Like neofetch, but much faster because written mostly in C
+brew "fastfetch"
 # Simple, fast and user-friendly alternative to find
 brew "fd"
 # Command-line fuzzy finder written in Go
@@ -46,7 +48,9 @@ cask "crystalfetch"
 cask "ghostty"
 # Archive manager for data compression and backups
 cask "rar"
+# Open source virtual/remote desktop application
+cask "rustdesk"
+# System monitor for the menu bar
+cask "stats"
 # Virtual machines UI using QEMU
 cask "utm"
-# View output from scripts in the menu bar
-cask "xbar"
